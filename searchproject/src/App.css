@@ -1,0 +1,43 @@
+
+.App {
+  margin: 0; /* Reset margin */
+  padding: 0; /* Reset padding */
+}
+
+.searchDiv {
+  position: fixed; 
+  top: 0; 
+  left: 0; 
+  width: 100%; 
+  border: 3px solid lightblue;
+  padding: 10px;
+  border-radius: 5px;
+  width: 98vw;
+}
+
+.searchDiv form {
+  display: flex;
+  flex-direction: column; 
+  width: 98vw;
+}
+
+.searchDiv form label {
+  width: 100%; 
+  font-size: 20px;
+  color: #E9A89B;
+  
+}
+
+.searchDiv form input{
+  background-color: #E9A89B;
+}
+
+.imageList{
+  columns: 250px 5 ;
+  column-gap: 10px;
+
+}
+
+.imageListimg{
+  width:100%;
+}
